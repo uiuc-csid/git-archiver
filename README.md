@@ -31,7 +31,7 @@ git-archiver <options>
 
 You will need to generate a personal access token for github. For [github-dev the link is here](https://github-dev.cs.illinois.edu/settings/tokens). It should have `repo` level permissions.
 
-## Archiving an organiztion
+## Archiving an organization
 
 In order to archive an organization, you must first ensure that you are the owner of the organization. Then, create an empty folder and cd into it. We recommend that you name this folder after the organization that you are archiving. Now you can call `git-archiver` and it will clone every repo from the organization as a bare repo into the current folder. All options can be set either interactively, as cli flags, or as environment variables.
 
