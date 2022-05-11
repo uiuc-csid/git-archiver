@@ -2,7 +2,7 @@
 
 ## Installation
 
-The repo can be installed directly as a python package. We recommend installing it either using [pipx](https://github.com/pypa/pipx)(recommended) or using a bare [virtualenv](https://docs.python.org/3/library/venv.html) to avoid polluting your python installation. You should ensure you are logged into github for https access through saml using the [github credentials manager](https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git).
+The repo can be installed directly as a python package. We recommend installing it either using [pipx](https://github.com/pypa/pipx)(recommended) or using a bare [virtualenv](https://docs.python.org/3/library/venv.html) to avoid polluting your python installation. You should ensure you are logged into github for https access through saml using either the [github credentials manager](https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git) or allowing your ssh key for organization access and changing the git urls in these instructions to <git@github.com:uiuc-csid/git-archiver.git>.
 
 ### pipx Installation
 
